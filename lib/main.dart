@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MiInteractivaApp());
+void main() => runApp(MiInteractivaCruzApp());
 
-class MiInteractivaApp extends StatelessWidget {
+class MiInteractivaCruzApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Interactiva App",
+      title: "Interactiva cruz App",
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
